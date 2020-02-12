@@ -1,20 +1,19 @@
-
 import React from "react";
 import Profile from "./Profile";
 
 function ProfileContainer(){
-  const stylee = {
+  const profileStyle = {
     fontFamily: 'sans-serif',
     border: '2px solid black',
-    borderRadius: 20,
+    borderRadius: '20',
     margin: '10px',
-    padding: 10
+    padding: '10'
   }
   return (
-    <div style={stylee}>
+    <div style={profileStyle}>
     <Profile
-      name="Thato and Haley"
-      aboutMe="Firebase will not save record!"/>
+      name="@CurrentUser"
+      aboutMe="I can't think of anything creative to write so here we are"/>
       </div>
   );
 }

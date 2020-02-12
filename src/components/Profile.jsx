@@ -2,10 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function Profile(props){
+  const nameStyle = {
+
+  }
+  const aboutStyle = {
+    color: 'rgb(100,100,255)',
+  }
+  const profileStyle = {
+    padding: '20px'
+  }
   return (
-    <div>
-      <h3>{props.name}</h3>
-      <p><em>{props.aboutMe}</em></p>
+    <div style={profileStyle}>
+      <h3 style={nameStyle}>{props.name}</h3>
+      <p style={aboutStyle}><em>{props.aboutMe}</em></p>
       <hr/>
     </div>
   );

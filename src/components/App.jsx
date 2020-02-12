@@ -3,22 +3,20 @@ import Header from "./Header";
 import SuggestionsContainer from "./SuggestionsContainer";
 import SavedTweets from "./SavedTweets";
 import ProfileContainer from "./ProfileContainer";
+import { Switch, Route } from 'react-router-dom';
+import Homepage from './Homepage';
+import NewUser from './NewUser';
+
 
 function App(){
-  const griddy = {
-    fontFamily: 'sans-serif',
-    display: 'grid',
-    gridTemplateColumns: 'auto auto auto',
-    padding: '10px'
-  }
+
   return (
     <div>
       <Header/>
-      <div style={griddy}>
-      <ProfileContainer/>
-      <SavedTweets/>
-      <SuggestionsContainer/>
-      </div>
+      <Switch>
+        <Route exact path='/' component={Homepage}/>
+        <Route path='/newuser' component={NewUser}/>
+      </Switch>
     </div>
   );
 }

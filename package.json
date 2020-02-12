@@ -1,5 +1,5 @@
 {
-  "name": "help-queue",
+  "name": "Tweeeter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epicodus-lessons/react-help-queue-example.git"
+    "url": "git+https://github.com/unfinishedideas/react-tweeeter.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/epicodus-lessons/react-help-queue-example/issues"
+    "url": "https://github.com/unfinishedideas/react-tweeeter"
   },
-  "homepage": "https://github.com/epicodus-lessons/react-help-queue-example#readme",
+  "homepage": "https://github.com/unfinishedideas/react-tweeeter",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
