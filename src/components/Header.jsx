@@ -3,20 +3,27 @@ import React from "react";
 function Header(){
   const headerStyle = {
     color: 'white',
-    width: '100%',
-    padding: '9px 0px 5px 0px',
-    margin: '0',
-    left: '0',
+    width: '97%',
+    // padding: '9px 0px 5px 0px',
+    margin: 'auto',
     backgroundColor: 'rgb(170,170,250)',
     border: '3px solid rgb(50,50,200)',
-    borderRadius: '5px',
+    borderRadius: '20px',
     fontSize: '35px',
     fontFamily: 'impact',
     textShadow: '3px 3px 2px black',
-    textAlign: 'center'
+    textAlign: 'center',
+    boxShadow: '2px 2px black'
+
   };
   const navLinkStyle = {
     fontSize: '15px',
+    textAlign: 'center'
+  }
+  const navBarStyle = {
+    margin: "auto",
+    marginTop: '20px',
+    textAlign: "center"
   }
 
   return (
@@ -24,8 +31,10 @@ function Header(){
       <div style={headerStyle}>
         <h1>Tweeeeter</h1>
       </div>
+      <div style={navBarStyle}>
       <a href="/" style={navLinkStyle}>Home</a> |
       <a href="/#/newuser" style={navLinkStyle}> New User</a>
+      </div>
     </div>
   );
 }

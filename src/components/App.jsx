@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import SuggestionsContainer from "./SuggestionsContainer";
-import SavedTweets from "./SavedTweets";
+import TweetsContainer from "./TweetsContainer";
 import ProfileContainer from "./ProfileContainer";
 import { Switch, Route } from 'react-router-dom';
 import Homepage from './Homepage';

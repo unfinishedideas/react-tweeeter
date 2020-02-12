@@ -7,7 +7,8 @@ function ProfileContainer(){
     border: '2px solid black',
     borderRadius: '20',
     margin: '10px',
-    padding: '10'
+    padding: '10',
+    boxShadow: '2px 2px black',
   }
   return (
     <div style={profileStyle}>

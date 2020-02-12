@@ -8,7 +8,7 @@ function TweetForm(){
 
   const tweetFormInputStyle = {
     fontSize: '40px',
-    width: '750px',
+    width: '75%',
     border: '1px solid black',
     padding: '12px',
     marginBottom: '20px'

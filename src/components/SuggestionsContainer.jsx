@@ -8,11 +8,13 @@ function SuggestionsContainer(){
     borderRadius: 20,
     margin: '10px',
     padding: '10px',
-    paddingLeft: '30px'
+    paddingLeft: '30px',
+    boxShadow: '2px 2px black'
+
   }
   return (
     <div style={stylee}>
-    <h3>Consider following</h3>
+    <h5>Consider following:</h5>
     <Suggestion
       name="@Buddy"/>
       </div>

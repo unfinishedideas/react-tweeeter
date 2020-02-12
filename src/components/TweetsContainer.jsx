@@ -22,13 +22,14 @@ var masterTweets = [
   }
 ];
 
-function SavedTweets(){
+function TweetsContainer(){
   const feedBoxStyle = {
     fontFamily: 'sans-serif',
     border: '2px solid black',
     borderRadius: '20px',
     margin: '10px',
-    padding: '10px'
+    padding: '10px',
+    boxShadow: '2px 2px black'
   }
   const feedStyle = {
     paddingLeft: '20px'
@@ -50,4 +51,4 @@ function SavedTweets(){
 )}
 
 
-export default SavedTweets;
+export default TweetsContainer;

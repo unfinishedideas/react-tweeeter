@@ -13,6 +13,7 @@ function Profile(props){
   }
   return (
     <div style={profileStyle}>
+      <h5>Logged in as:</h5>
       <h3 style={nameStyle}>{props.name}</h3>
       <p style={aboutStyle}><em>{props.aboutMe}</em></p>
       <hr/>
