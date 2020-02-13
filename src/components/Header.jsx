@@ -1,5 +1,5 @@
 import React from "react";
-// import "./index.css"
+// import "./fonts.css"
 
 function Header(){
   const headerStyle = {
@@ -18,7 +18,8 @@ function Header(){
   };
   const navLinkStyle = {
     fontSize: '15px',
-    textAlign: 'center'
+    textAlign: 'center',
+    textDecoration: 'none',
   }
   const navBarStyle = {
     margin: "auto",

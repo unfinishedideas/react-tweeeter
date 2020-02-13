@@ -16,7 +16,8 @@ function SuggestionsContainer(){
     <div style={stylee}>
     <h5>Consider following:</h5>
     <Suggestion
-      name="@Buddy"/>
+      name="@Buddy"
+      about="Heyyy check me out. I AM your buddy, guy!"/>
       </div>
   );
 }

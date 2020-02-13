@@ -17,17 +17,22 @@ function Suggestion(props){
     padding: '10px',
     marginBottom: '10px'
   }
+  const aboutStyle = {
+    color: 'rgb(100,100,255)',
+  }
   return (
     <div style={suggestionStyle}>
       <h3 style={nameStyle}>{props.name}</h3>
-      <button style={buttonStyle} type="button" name="button">Follow</button>
+      <p style={aboutStyle}><em>{props.about}</em></p>
       <hr/>
+      <button style={buttonStyle} type="button" name="button">Follow</button>
     </div>
   );
 }
 
 Suggestion.propTypes = {
   name: PropTypes.string.isRequired,
+  about: PropTypes.string.isRequired
 };
 
 export default Suggestion;
