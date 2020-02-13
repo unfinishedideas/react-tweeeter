@@ -9,7 +9,7 @@ function Suggestion(props){
 
   }
   const buttonStyle = {
-    fontSize: '15px',
+    fontSize: '18px',
     color: 'rgb(255,255,255)',
     textShadow: '1px 1px black',
     backgroundColor: 'rgb(170,170,250)',

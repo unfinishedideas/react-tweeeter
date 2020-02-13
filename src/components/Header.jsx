@@ -1,17 +1,17 @@
 import React from "react";
+// import "./index.css"
 
 function Header(){
   const headerStyle = {
     color: 'white',
     width: '97%',
-    // padding: '9px 0px 5px 0px',
     margin: 'auto',
-    backgroundColor: 'rgb(170,170,250)',
-    border: '3px solid rgb(50,50,200)',
+    backgroundColor: 'rgb(200,200,250)',
+    border: '3px solid rgb(150,150,200)',
     borderRadius: '20px',
     fontSize: '35px',
     fontFamily: 'impact',
-    textShadow: '3px 3px 2px black',
+    textShadow: '4px 4px 2px black',
     textAlign: 'center',
     boxShadow: '2px 2px black'
 

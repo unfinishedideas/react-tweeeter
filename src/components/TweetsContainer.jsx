@@ -34,11 +34,16 @@ function TweetsContainer(){
   const feedStyle = {
     paddingLeft: '20px'
   }
+  const feedTitleStyle = {
+    fontFamily: "monospace",
+    textDecoration: "underline"
+  }
 
   return (
     <div style={feedBoxStyle}>
     <TweetForm/>
     <div style={feedStyle}>
+    <h2 style={feedTitleStyle}>The Feed</h2>
     {
     masterTweets.map((tweet, index) =>
       <Tweet
